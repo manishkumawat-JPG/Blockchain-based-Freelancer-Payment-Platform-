@@ -1,0 +1,14 @@
+[package]
+name = "freelancer"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ MyModule ="0xa394f7bc535432144f71b7ef5402f705ecdb84e9e7e4f1f437afaa1c199c47a"
+ 
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
